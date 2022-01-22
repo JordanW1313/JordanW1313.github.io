@@ -9,6 +9,21 @@
         {
             location.href = "about.html";
         })
+
+        // Step 1 - get reference to entry point(s)
+        let MainContent = document.getElementsByTagName("main")[0];
+
+        // Step 2 - Create a HTML Element in memory
+        let MainParagraph = document.createElement("p");
+
+        // Step 3 - Configure new element
+        MainParagraph.setAttribute("id", "MainParagraph");
+        MainParagraph.setAttribute("class", "mt-3");
+        MainParagraph.textContent = "This is the Main Paragraph!";
+
+        // Step 4 - Perform insertion / deletion
+        MainContent.appendChild(MainParagraph);
+        
     }
 
     function Start()
