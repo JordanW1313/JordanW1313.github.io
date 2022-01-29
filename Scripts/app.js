@@ -26,11 +26,7 @@
         MainParagraph.setAttribute("class", "mt-3");
         MainParagraph.textContent = "This is the Main Paragraph!";
         let firstString  = "This is";
-<<<<<<< HEAD
         let secondString  = `${firstString} the Main Paragraph`;
-=======
-        let secondString  = `${FirstString} the Main Paragraph`;
->>>>>>> 77fad9e9a0e97f208f06cd05cd7cf6556f33b0f0
         MainContent.textContent = secondString;
         ArticleParagraph.setAttribute("class", "container");
 
@@ -41,7 +37,6 @@
         MainContent.appendChild(MainParagraph);
         Article.innerHTML = ArticleParagraph;
         DocumentBody.appendChild(Article);
-<<<<<<< HEAD
     }
 
     function DisplayAboutPage()
@@ -117,16 +112,6 @@
 
             contactList.innerHTML = data;
         }
-=======
-
-        // example of insert before
-        //MainContent.before(MainParagraph);
-
-        // example of deletion
-        //document.getElementById("AboutUsButton").remove();
-        AboutUsButton.remove();
-        
->>>>>>> 77fad9e9a0e97f208f06cd05cd7cf6556f33b0f0
     }
 
     function Start()
