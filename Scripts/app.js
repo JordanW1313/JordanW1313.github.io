@@ -83,7 +83,9 @@
                 in the work force. I have always had a apassion for computers and other forms of technology.
                 I got my first taste of coding writing custom scripts when modding "The Elder Scrolls V: Skyrim".
                 From there I started to teach myself python and C# before finally enrolling in this program.  I am
-                currently teaching myself blockchain development as a hobby.
+                currently teaching myself blockchain development as a hobby.<br/><br/>
+                <a href="https://www.linkedin.com/in/jordan-wriker-21b882221/">Jordan's LinkedIn Profile</a><br/>
+                <a href="../Files/jw-resume.pdf" download>Jordan's Resume</a><br/><br/><br/>
                 </div>
             </div>  
             <div class="float-child">
@@ -95,10 +97,11 @@
                 I'm 21 years old. Back in high school I was in a class for computer science where I got to experience
                 with Alice 3, VB.NET, C# and C++. I've always had a passion for technology as a kid and I had a strong liking
                 towards Computer Programming so when I decided to go to Durham, I went for the Computer Programming program, now in CPA. 
-                In my free time, you'll see me most likely gaming, coding, or even live streaming! 
+                In my free time, you'll see me most likely gaming, coding, or even live streaming!<br/><br/>
+                <a href="https://www.linkedin.com/in/dakotaparrish/">Daktoa's LinkedIn Profile</a><br/>
+                <a href="../Files/dp-resume.pdf" download>Dakota's Resume</a><br/><br/><br/>
                 </div>
             </div>
-  
         </div>
         `;
         MainContent.innerHTML = MainParagraph;
