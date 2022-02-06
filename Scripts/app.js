@@ -9,6 +9,9 @@
 
 (function()
 {
+    /**
+     * Function to inject the human resources button on to the nav bar on each page
+     */
     function injectHR() 
     {
         let buttonTag = 
@@ -21,6 +24,9 @@
         $( buttonTag ).insertAfter( "#btnAbout" );
     }
 
+    /**
+     * Function to inject the bottom nav bar with the copyright info at the bottom of each page
+     */
     function injectFooter()
     {
         let content = 
@@ -35,6 +41,9 @@
         $( content ).insertAfter( "#break" );
     }
 
+    /**
+     * Function to display the home page and inject all of the elements using Javascript.
+     */
     function DisplayHomePage()
     {
         console.log("Home Page");
@@ -63,6 +72,11 @@
 
     }
 
+    /**
+     * Function to display the about page content. Declares a variable and then defines some html inside
+     * then injects the variable into the main section of the document
+     *
+     */
     function DisplayAboutPage()
     {
         console.log("About Us Page");
@@ -105,13 +119,13 @@
         </div>
         `;
         MainContent.innerHTML = MainParagraph;
-
-
-        // $("main").append(`
-        // <p id="MainParagraph" class="mt-3">This is the Main Paragraph</p>
-        // `);
     }
 
+    /**
+     * Function to display the project page content. Declares a variable and then defines somme html inside
+     * then injects the variable into the main section of the document
+     *
+     */
     function DisplayProjectsPage()
     {
         console.log("Our Projects Page");
@@ -176,6 +190,10 @@
         MainContent.innerHTML = MainParagraph;
     }
 
+    /**
+     * Function to display the services and inject all of the elements using Javascript. 
+     * HTML elements are declared and then appended at the end once there is content in each element
+     */
     function DisplayServicesPage()
     {
         console.log("Our Services Page");
@@ -257,6 +275,10 @@
 
     }
 
+    /**
+     * Function to display the contact page. Once the user clicks the submit button, it displays the information
+     * entered from the console log and then after 3 seconds, the user will be redirected to the index.html page
+     */
     function DisplayContactPage()
     {
         console.log("Contact Us Page");
@@ -329,9 +351,6 @@
         }
     }
 
-   
-
-
     // named function option
     function Start()
     {
@@ -360,6 +379,4 @@
         }
     }
     window.addEventListener("load", Start);
-
-
 })();
